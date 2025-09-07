@@ -6,7 +6,7 @@ Designed a modulator using the TM4C123GH6PM microcontroller that can plot sine a
 
 # Features
 * `Waveform plotting`: plots sine (I) and cosine (Q) waveforms by providing the amplitude and frequency, and then generating lookup tables of I and Q values to be used for plotting the waveforms
-* `Symbol streaming`: Plots constellations for BPSK, QPSK, 8PSK, and 16QAM by converting strings to groups of data bits for each modulation type.
+* `Symbol streaming`: plots constellations for BPSK, QPSK, 8PSK, and 16QAM by converting strings to groups of data bits for each modulation type.
 * `RRC filtering`: applies rrc flitering to the constellations by first utilizing interpolation filtering by inserting an IQ value into an array and then three zeros after it to an array of size 31. It then uses convolution on this array.
 
 # Hardware Components
@@ -19,6 +19,16 @@ Designed a modulator using the TM4C123GH6PM microcontroller that can plot sine a
 | Oscilloscope |
 | Signal Generator |
 | Spectrum Analyzer |
+
+# Circuit Diagrams
+* TLC072 op amp circuits:
+  ![TLC072 circuits](https://github.com/user-attachments/assets/dcef8ea2-8bc3-4782-9564-b8ed72b3e019)
+
+* MAX660 circuit:
+  ![MAX660 circuit](https://github.com/user-attachments/assets/81c5d5d4-d46d-46e0-967b-7ffe688836a2)
+
+* MCP4822 circuit:
+  ![MCP4822 circuit](https://github.com/user-attachments/assets/fdf375d7-8469-4d20-9b40-072ad0221fe5)
 
 # Peripherals Used
 |        |
