@@ -22,12 +22,15 @@ Designed a modulator using the TM4C123GH6PM microcontroller that can plot sine a
 
 # Circuit Diagrams
 * TLC072 op amp circuits:
+  
   ![TLC072 circuits](https://github.com/user-attachments/assets/dcef8ea2-8bc3-4782-9564-b8ed72b3e019)
 
 * MAX660 circuit:
+  
   ![MAX660 circuit](https://github.com/user-attachments/assets/81c5d5d4-d46d-46e0-967b-7ffe688836a2)
 
 * MCP4822 circuit:
+  
   ![MCP4822 circuit](https://github.com/user-attachments/assets/fdf375d7-8469-4d20-9b40-072ad0221fe5)
 
 # Peripherals Used
